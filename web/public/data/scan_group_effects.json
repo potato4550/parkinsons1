@@ -1,0 +1,1677 @@
+{
+ "schema_version": "1",
+ "generated_on": "2026-11-07",
+ "kind": "scan_group_effects",
+ "n_control": 22,
+ "n_patient": 33,
+ "covariates": [
+  "age",
+  "sex"
+ ],
+ "quality": "rough",
+ "method": "affine-only registration, k-means tissue split, AAL3 grey-matter fraction; OLS group effect; BH-FDR",
+ "caveat": "Group difference in these scans only. Not a diagnosis. Scanner, age and sex differences can look like disease effects.",
+ "n_regions_fdr_below_0_05": 0,
+ "regions": [
+  {
+   "region_id": 1,
+   "region_name": "Precentral L",
+   "mean_control": 0.006759410901979474,
+   "mean_patient": 0.006767035150542734,
+   "percent_difference": 0.11279457150662332,
+   "effect_d": -0.16522939139345696,
+   "p": 0.5510122004862276,
+   "fdr_p": 0.7629160030189795
+  },
+  {
+   "region_id": 2,
+   "region_name": "Precentral R",
+   "mean_control": 0.006390520496975277,
+   "mean_patient": 0.005606539151638837,
+   "percent_difference": -12.26787936456052,
+   "effect_d": -0.7522444537381454,
+   "p": 0.008652824659678097,
+   "fdr_p": 0.10079694958985876
+  },
+  {
+   "region_id": 3,
+   "region_name": "Frontal Sup 2 L",
+   "mean_control": 0.00897281242141046,
+   "mean_patient": 0.009206499806292833,
+   "percent_difference": 2.604393961527152,
+   "effect_d": 0.1564850940034604,
+   "p": 0.5722141529090791,
+   "fdr_p": 0.7785864703516977
+  },
+  {
+   "region_id": 4,
+   "region_name": "Frontal Sup 2 R",
+   "mean_control": 0.009745137573178011,
+   "mean_patient": 0.00957134717243017,
+   "percent_difference": -1.7833550264715863,
+   "effect_d": -0.18800824048460185,
+   "p": 0.49771697820405925,
+   "fdr_p": 0.7299426737219488
+  },
+  {
+   "region_id": 5,
+   "region_name": "Frontal Mid 2 L",
+   "mean_control": 0.008587779016385902,
+   "mean_patient": 0.008692299274348099,
+   "percent_difference": 1.217081363677003,
+   "effect_d": 0.04912828657878376,
+   "p": 0.8590579203909827,
+   "fdr_p": 0.9806114220106059
+  },
+  {
+   "region_id": 6,
+   "region_name": "Frontal Mid 2 R",
+   "mean_control": 0.00868620143579009,
+   "mean_patient": 0.00799475738710576,
+   "percent_difference": -7.960258046000945,
+   "effect_d": -0.5651720249668355,
+   "p": 0.04528588508336803,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 7,
+   "region_name": "Frontal Inf Oper L",
+   "mean_control": 0.0017285762635421004,
+   "mean_patient": 0.001994130941751675,
+   "percent_difference": 15.362624363787987,
+   "effect_d": 0.8934369478624634,
+   "p": 0.0020912431876638064,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 8,
+   "region_name": "Frontal Inf Oper R",
+   "mean_control": 0.0019378874523432758,
+   "mean_patient": 0.0019062032563584056,
+   "percent_difference": -1.6349863840935623,
+   "effect_d": -0.1531891769115938,
+   "p": 0.580308046011827,
+   "fdr_p": 0.7831799645362868
+  },
+  {
+   "region_id": 9,
+   "region_name": "Frontal Inf Tri L",
+   "mean_control": 0.004539438204840091,
+   "mean_patient": 0.005072036998071257,
+   "percent_difference": 11.732702797083848,
+   "effect_d": 0.6278116623027825,
+   "p": 0.02684661104005123,
+   "fdr_p": 0.17826149730594015
+  },
+  {
+   "region_id": 10,
+   "region_name": "Frontal Inf Tri R",
+   "mean_control": 0.0027711208835803566,
+   "mean_patient": 0.0029269118795446436,
+   "percent_difference": 5.621948753206363,
+   "effect_d": -0.0203780566027042,
+   "p": 0.9412762301131308,
+   "fdr_p": 0.995234740119616
+  },
+  {
+   "region_id": 11,
+   "region_name": "Frontal Inf Orb 2 L",
+   "mean_control": 0.00144792001449558,
+   "mean_patient": 0.0014860444194318783,
+   "percent_difference": 2.6330463392054098,
+   "effect_d": -0.0227777009350122,
+   "p": 0.934376374687153,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 12,
+   "region_name": "Frontal Inf Orb 2 R",
+   "mean_control": 0.0009640767260901289,
+   "mean_patient": 0.0011340852827893945,
+   "percent_difference": 17.63433885482803,
+   "effect_d": 0.26402422890186966,
+   "p": 0.3420497771398207,
+   "fdr_p": 0.5678026300521024
+  },
+  {
+   "region_id": 13,
+   "region_name": "Rolandic Oper L",
+   "mean_control": 0.0015685854381676803,
+   "mean_patient": 0.0018148054106646365,
+   "percent_difference": 15.696943660561736,
+   "effect_d": 0.5380894877374257,
+   "p": 0.056187686160493466,
+   "fdr_p": 0.22749160738151014
+  },
+  {
+   "region_id": 14,
+   "region_name": "Rolandic Oper R",
+   "mean_control": 0.002399771532236032,
+   "mean_patient": 0.002318867210359179,
+   "percent_difference": -3.37133434537699,
+   "effect_d": 0.029475038830926604,
+   "p": 0.9151476001204132,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 15,
+   "region_name": "Supp Motor Area L",
+   "mean_control": 0.0037211692863866196,
+   "mean_patient": 0.0032214768557137993,
+   "percent_difference": -13.428371358993946,
+   "effect_d": -0.4081679283871828,
+   "p": 0.14436451461811364,
+   "fdr_p": 0.3715879437446963
+  },
+  {
+   "region_id": 16,
+   "region_name": "Supp Motor Area R",
+   "mean_control": 0.0042620674919723765,
+   "mean_patient": 0.004563815037563034,
+   "percent_difference": 7.079839682478055,
+   "effect_d": 0.16328804303895275,
+   "p": 0.5556847604051586,
+   "fdr_p": 0.7629160030189795
+  },
+  {
+   "region_id": 17,
+   "region_name": "Olfactory L",
+   "mean_control": 0.0002452605048239298,
+   "mean_patient": 0.00022608142752726518,
+   "percent_difference": -7.8198800538362665,
+   "effect_d": -0.037384688471713605,
+   "p": 0.8925047514798626,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 18,
+   "region_name": "Olfactory R",
+   "mean_control": 0.00017491147552001644,
+   "mean_patient": 0.000235199928737539,
+   "percent_difference": 34.467980467424105,
+   "effect_d": 0.5642416305781336,
+   "p": 0.04562751552249439,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 19,
+   "region_name": "Frontal Sup Medial L",
+   "mean_control": 0.004317598944268721,
+   "mean_patient": 0.004191074002590801,
+   "percent_difference": -2.9304468365657725,
+   "effect_d": -0.016914534208191268,
+   "p": 0.951242997523652,
+   "fdr_p": 0.9953355612487302
+  },
+  {
+   "region_id": 20,
+   "region_name": "Frontal Sup Medial R",
+   "mean_control": 0.003086922303263857,
+   "mean_patient": 0.003759415630851,
+   "percent_difference": 21.785236605278463,
+   "effect_d": 0.5507809576574373,
+   "p": 0.05082598536614205,
+   "fdr_p": 0.2163362454046046
+  },
+  {
+   "region_id": 21,
+   "region_name": "Frontal Med Orb L",
+   "mean_control": 0.0006636656721518987,
+   "mean_patient": 0.0007827669330956845,
+   "percent_difference": 17.94597279042724,
+   "effect_d": 0.22886289232293908,
+   "p": 0.40964461565180726,
+   "fdr_p": 0.6476286304590476
+  },
+  {
+   "region_id": 22,
+   "region_name": "Frontal Med Orb R",
+   "mean_control": 0.0008780733464508896,
+   "mean_patient": 0.0011338660992102156,
+   "percent_difference": 29.131137369471723,
+   "effect_d": 0.3932469464132806,
+   "p": 0.15929751363603536,
+   "fdr_p": 0.3888733421114981
+  },
+  {
+   "region_id": 23,
+   "region_name": "Rectus L",
+   "mean_control": 0.000851185085187431,
+   "mean_patient": 0.000742201920973311,
+   "percent_difference": -12.803697587126052,
+   "effect_d": -0.03368874894993287,
+   "p": 0.9030750127192554,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 24,
+   "region_name": "Rectus R",
+   "mean_control": 0.0006643146208507487,
+   "mean_patient": 0.0007685884420427754,
+   "percent_difference": 15.696451337844914,
+   "effect_d": 0.3316987608167707,
+   "p": 0.23382929144866002,
+   "fdr_p": 0.46041117495573475
+  },
+  {
+   "region_id": 25,
+   "region_name": "OFCmed L",
+   "mean_control": 0.0006145513588358587,
+   "mean_patient": 0.0006240282549088114,
+   "percent_difference": 1.542083657727933,
+   "effect_d": 0.19113850164995555,
+   "p": 0.49062023090654283,
+   "fdr_p": 0.7271692708079117
+  },
+  {
+   "region_id": 26,
+   "region_name": "OFCmed R",
+   "mean_control": 0.0006343333792766582,
+   "mean_patient": 0.0006260973400496212,
+   "percent_difference": -1.2983770831086794,
+   "effect_d": -0.011707448197661677,
+   "p": 0.9662414033153449,
+   "fdr_p": 0.9962489003127158
+  },
+  {
+   "region_id": 27,
+   "region_name": "OFCant L",
+   "mean_control": 0.0005206536446241195,
+   "mean_patient": 0.0005499496544051304,
+   "percent_difference": 5.6267751284370355,
+   "effect_d": 0.31441054344975294,
+   "p": 0.2587658607461415,
+   "fdr_p": 0.4772792542651055
+  },
+  {
+   "region_id": 28,
+   "region_name": "OFCant R",
+   "mean_control": 0.0006400684857734551,
+   "mean_patient": 0.0006638654893821047,
+   "percent_difference": 3.7178839667279426,
+   "effect_d": -0.02596339881638191,
+   "p": 0.9252242583223206,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 29,
+   "region_name": "OFCpost L",
+   "mean_control": 0.0008662257400065342,
+   "mean_patient": 0.0008649970351063855,
+   "percent_difference": -0.14184580801529126,
+   "effect_d": -0.04273220809908129,
+   "p": 0.87724629093905,
+   "fdr_p": 0.990631865958383
+  },
+  {
+   "region_id": 30,
+   "region_name": "OFCpost R",
+   "mean_control": 0.00047698374932691583,
+   "mean_patient": 0.0004970064306231511,
+   "percent_difference": 4.197770117847788,
+   "effect_d": -0.11172542982891162,
+   "p": 0.6865343524935037,
+   "fdr_p": 0.8633689584388
+  },
+  {
+   "region_id": 31,
+   "region_name": "OFClat L",
+   "mean_control": 0.0003059043783632968,
+   "mean_patient": 0.0003135639790549557,
+   "percent_difference": 2.5039199283908964,
+   "effect_d": 0.05228141486012955,
+   "p": 0.8501190868151283,
+   "fdr_p": 0.9799983917452173
+  },
+  {
+   "region_id": 32,
+   "region_name": "OFClat R",
+   "mean_control": 0.00020401856355038324,
+   "mean_patient": 0.0002409629211358591,
+   "percent_difference": 18.108331390320913,
+   "effect_d": 0.2916919703761275,
+   "p": 0.29434220618751805,
+   "fdr_p": 0.5197958109268935
+  },
+  {
+   "region_id": 33,
+   "region_name": "Insula L",
+   "mean_control": 0.003143617173558284,
+   "mean_patient": 0.003376292554122702,
+   "percent_difference": 7.401517669565693,
+   "effect_d": 0.4044934088535983,
+   "p": 0.14793537351985142,
+   "fdr_p": 0.3717753714989102
+  },
+  {
+   "region_id": 34,
+   "region_name": "Insula R",
+   "mean_control": 0.0021288598591482017,
+   "mean_patient": 0.002090732224763123,
+   "percent_difference": -1.7909884589741922,
+   "effect_d": -0.030857650487509013,
+   "p": 0.9111839509374877,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 35,
+   "region_name": "35",
+   "mean_control": 0.0,
+   "mean_patient": 0.0,
+   "percent_difference": 0.0,
+   "effect_d": 0.0,
+   "p": 1.0,
+   "fdr_p": 1.0
+  },
+  {
+   "region_id": 36,
+   "region_name": "36",
+   "mean_control": 0.0,
+   "mean_patient": 0.0,
+   "percent_difference": 0.0,
+   "effect_d": 0.0,
+   "p": 1.0,
+   "fdr_p": 1.0
+  },
+  {
+   "region_id": 37,
+   "region_name": "Cingulate Mid L",
+   "mean_control": 0.004121016653939814,
+   "mean_patient": 0.003557063268655511,
+   "percent_difference": -13.684812089879484,
+   "effect_d": -0.40234626067798634,
+   "p": 0.1500539150025722,
+   "fdr_p": 0.3717753714989102
+  },
+  {
+   "region_id": 38,
+   "region_name": "Cingulate Mid R",
+   "mean_control": 0.004360449877342809,
+   "mean_patient": 0.004731182575962712,
+   "percent_difference": 8.50216626835352,
+   "effect_d": 0.3184250645377003,
+   "p": 0.2528123385693781,
+   "fdr_p": 0.4715752713924645
+  },
+  {
+   "region_id": 39,
+   "region_name": "Cingulate Post L",
+   "mean_control": 0.0009385604064092512,
+   "mean_patient": 0.0008070751092863615,
+   "percent_difference": -14.00925249190158,
+   "effect_d": -0.2939744804728734,
+   "p": 0.29062209616786416,
+   "fdr_p": 0.5187448168157576
+  },
+  {
+   "region_id": 40,
+   "region_name": "Cingulate Post R",
+   "mean_control": 0.0006937006635427974,
+   "mean_patient": 0.0007197408409191081,
+   "percent_difference": 3.753806035491001,
+   "effect_d": 0.20252587143784787,
+   "p": 0.4652824551252581,
+   "fdr_p": 0.6993160293867491
+  },
+  {
+   "region_id": 41,
+   "region_name": "Hippocampus L",
+   "mean_control": 0.0010522418667774066,
+   "mean_patient": 0.0011203236417645299,
+   "percent_difference": 6.470164050365187,
+   "effect_d": 0.3344828710866504,
+   "p": 0.22998316828070817,
+   "fdr_p": 0.46041117495573475
+  },
+  {
+   "region_id": 42,
+   "region_name": "Hippocampus R",
+   "mean_control": 0.0010913178379071647,
+   "mean_patient": 0.0012352570681086093,
+   "percent_difference": 13.189487535315907,
+   "effect_d": 0.6586520114059611,
+   "p": 0.02050773947898797,
+   "fdr_p": 0.14920428557359908
+  },
+  {
+   "region_id": 43,
+   "region_name": "ParaHippocampal L",
+   "mean_control": 0.001006705502096033,
+   "mean_patient": 0.0009308836433963276,
+   "percent_difference": -7.531682159463604,
+   "effect_d": -0.3102824850405342,
+   "p": 0.26499144239739897,
+   "fdr_p": 0.4833909828348157
+  },
+  {
+   "region_id": 44,
+   "region_name": "ParaHippocampal R",
+   "mean_control": 0.0011555413169378728,
+   "mean_patient": 0.0010305767774168913,
+   "percent_difference": -10.814372250412587,
+   "effect_d": -0.12789560787008544,
+   "p": 0.6441865329595453,
+   "fdr_p": 0.8289532129556939
+  },
+  {
+   "region_id": 45,
+   "region_name": "Amygdala L",
+   "mean_control": 0.00020760101728953641,
+   "mean_patient": 0.00021101325185201368,
+   "percent_difference": 1.6436502128110022,
+   "effect_d": 0.14722570641919266,
+   "p": 0.5950916352165324,
+   "fdr_p": 0.7966549310156805
+  },
+  {
+   "region_id": 46,
+   "region_name": "Amygdala R",
+   "mean_control": 0.0002630328689234049,
+   "mean_patient": 0.0002761589453413899,
+   "percent_difference": 4.9902799112940075,
+   "effect_d": 0.35894682111095233,
+   "p": 0.19816501022842326,
+   "fdr_p": 0.4321135260910293
+  },
+  {
+   "region_id": 47,
+   "region_name": "Calcarine L",
+   "mean_control": 0.004658322196102235,
+   "mean_patient": 0.00425282455629159,
+   "percent_difference": -8.70480019930647,
+   "effect_d": -0.23116161345460448,
+   "p": 0.40498947025766974,
+   "fdr_p": 0.6476286304590476
+  },
+  {
+   "region_id": 48,
+   "region_name": "Calcarine R",
+   "mean_control": 0.0037336779090551596,
+   "mean_patient": 0.0036645110877931856,
+   "percent_difference": -1.8525117309724595,
+   "effect_d": 0.07291219213551185,
+   "p": 0.7921731072712603,
+   "fdr_p": 0.9260615197678115
+  },
+  {
+   "region_id": 49,
+   "region_name": "Cuneus L",
+   "mean_control": 0.0032380696254536113,
+   "mean_patient": 0.0026671170273608654,
+   "percent_difference": -17.632499116283295,
+   "effect_d": -0.8251009940083084,
+   "p": 0.004228127801498895,
+   "fdr_p": 0.0779854683387574
+  },
+  {
+   "region_id": 50,
+   "region_name": "Cuneus R",
+   "mean_control": 0.0028571553769694167,
+   "mean_patient": 0.0024691852100557966,
+   "percent_difference": -13.578896340077238,
+   "effect_d": -0.6104470393925895,
+   "p": 0.031136275895628094,
+   "fdr_p": 0.18459363566693798
+  },
+  {
+   "region_id": 51,
+   "region_name": "Lingual L",
+   "mean_control": 0.004327700779948006,
+   "mean_patient": 0.00411835991886382,
+   "percent_difference": -4.837230477073336,
+   "effect_d": -0.1814774272085054,
+   "p": 0.5127027729874841,
+   "fdr_p": 0.7336953475510548
+  },
+  {
+   "region_id": 52,
+   "region_name": "Lingual R",
+   "mean_control": 0.003762682233213072,
+   "mean_patient": 0.004190548229940507,
+   "percent_difference": 11.371302975060619,
+   "effect_d": 0.49571406120469563,
+   "p": 0.07773229113352276,
+   "fdr_p": 0.26882417350343285
+  },
+  {
+   "region_id": 53,
+   "region_name": "Occipital Sup L",
+   "mean_control": 0.002890175364165769,
+   "mean_patient": 0.0024350346586465925,
+   "percent_difference": -15.747857765390307,
+   "effect_d": -1.0289824544069388,
+   "p": 0.000476786461436243,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 54,
+   "region_name": "Occipital Sup R",
+   "mean_control": 0.0026197293465228437,
+   "mean_patient": 0.0020958978838723484,
+   "percent_difference": -19.99563288267831,
+   "effect_d": -0.8835404016892495,
+   "p": 0.002319951955504427,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 55,
+   "region_name": "Occipital Mid L",
+   "mean_control": 0.006504917652790958,
+   "mean_patient": 0.006104783537285086,
+   "percent_difference": -6.15125566323185,
+   "effect_d": -0.3654784158738252,
+   "p": 0.19025828911910092,
+   "fdr_p": 0.427021471641687
+  },
+  {
+   "region_id": 56,
+   "region_name": "Occipital Mid R",
+   "mean_control": 0.0033890105870237777,
+   "mean_patient": 0.0028625764871879635,
+   "percent_difference": -15.533563154139555,
+   "effect_d": -0.5286313345613616,
+   "p": 0.06049256535227324,
+   "fdr_p": 0.2390896630589847
+  },
+  {
+   "region_id": 57,
+   "region_name": "Occipital Inf L",
+   "mean_control": 0.001665909522494686,
+   "mean_patient": 0.0018285334555767129,
+   "percent_difference": 9.761870671013332,
+   "effect_d": 0.3317687339244338,
+   "p": 0.2337320547979495,
+   "fdr_p": 0.46041117495573475
+  },
+  {
+   "region_id": 58,
+   "region_name": "Occipital Inf R",
+   "mean_control": 0.0014542164071750273,
+   "mean_patient": 0.0013013789676718627,
+   "percent_difference": -10.509951527783123,
+   "effect_d": -0.3617706717351031,
+   "p": 0.19471676212071287,
+   "fdr_p": 0.43097310016051116
+  },
+  {
+   "region_id": 59,
+   "region_name": "Fusiform L",
+   "mean_control": 0.0033872575546984684,
+   "mean_patient": 0.0034306048736472737,
+   "percent_difference": 1.2797172417160365,
+   "effect_d": 0.09436238652460124,
+   "p": 0.7331593601217659,
+   "fdr_p": 0.8955447102535293
+  },
+  {
+   "region_id": 60,
+   "region_name": "Fusiform R",
+   "mean_control": 0.003622465175779903,
+   "mean_patient": 0.0040565124192040265,
+   "percent_difference": 11.982095682415359,
+   "effect_d": 0.7561188752176422,
+   "p": 0.008337367481897628,
+   "fdr_p": 0.10079694958985876
+  },
+  {
+   "region_id": 61,
+   "region_name": "Postcentral L",
+   "mean_control": 0.006830917385350963,
+   "mean_patient": 0.006786039889285732,
+   "percent_difference": -0.6569761209742002,
+   "effect_d": -0.22036644228415364,
+   "p": 0.42713330817937223,
+   "fdr_p": 0.6626554126894934
+  },
+  {
+   "region_id": 62,
+   "region_name": "Postcentral R",
+   "mean_control": 0.006963412917861122,
+   "mean_patient": 0.006211460672117477,
+   "percent_difference": -10.798616348240536,
+   "effect_d": -0.5523295424383449,
+   "p": 0.050202990069644286,
+   "fdr_p": 0.2163362454046046
+  },
+  {
+   "region_id": 63,
+   "region_name": "Parietal Sup L",
+   "mean_control": 0.003991850013008395,
+   "mean_patient": 0.0034492676663536153,
+   "percent_difference": -13.59225283732218,
+   "effect_d": -0.8605850781800007,
+   "p": 0.0029444787642830326,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 64,
+   "region_name": "Parietal Sup R",
+   "mean_control": 0.003537526426944446,
+   "mean_patient": 0.003138623032837605,
+   "percent_difference": -11.276336794786728,
+   "effect_d": -0.5785843613592073,
+   "p": 0.04060244818745298,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 65,
+   "region_name": "Parietal Inf L",
+   "mean_control": 0.004724551509790725,
+   "mean_patient": 0.004357221102047968,
+   "percent_difference": -7.77492650850637,
+   "effect_d": -0.7270791945937958,
+   "p": 0.010983901065803207,
+   "fdr_p": 0.11395797355770827
+  },
+  {
+   "region_id": 66,
+   "region_name": "Parietal Inf R",
+   "mean_control": 0.0026273023811282242,
+   "mean_patient": 0.002216164960596003,
+   "percent_difference": -15.648652529887684,
+   "effect_d": -0.7150414061142313,
+   "p": 0.012291084038294767,
+   "fdr_p": 0.11967302951827946
+  },
+  {
+   "region_id": 67,
+   "region_name": "SupraMarginal L",
+   "mean_control": 0.001879359643500219,
+   "mean_patient": 0.0021536142788143088,
+   "percent_difference": 14.592983107975193,
+   "effect_d": 0.45497031462953963,
+   "p": 0.10459942342282225,
+   "fdr_p": 0.3157000779670635
+  },
+  {
+   "region_id": 68,
+   "region_name": "SupraMarginal R",
+   "mean_control": 0.003960456185949495,
+   "mean_patient": 0.0033805083785898413,
+   "percent_difference": -14.643459746307347,
+   "effect_d": -0.5774807896598654,
+   "p": 0.04097117280930005,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 69,
+   "region_name": "Angular L",
+   "mean_control": 0.0025172187794330145,
+   "mean_patient": 0.002254755139680714,
+   "percent_difference": -10.426731355127533,
+   "effect_d": -0.709188846656168,
+   "p": 0.012976593562223075,
+   "fdr_p": 0.11967302951827946
+  },
+  {
+   "region_id": 70,
+   "region_name": "Angular R",
+   "mean_control": 0.003545856594001426,
+   "mean_patient": 0.0031824070819536244,
+   "percent_difference": -10.24997775326431,
+   "effect_d": -0.5158427558238562,
+   "p": 0.06675862423067444,
+   "fdr_p": 0.2577193400533013
+  },
+  {
+   "region_id": 71,
+   "region_name": "Precuneus L",
+   "mean_control": 0.006750412183732954,
+   "mean_patient": 0.00584232840224955,
+   "percent_difference": -13.452271606046393,
+   "effect_d": -0.7761915981144135,
+   "p": 0.006866197058134381,
+   "fdr_p": 0.10079694958985876
+  },
+  {
+   "region_id": 72,
+   "region_name": "Precuneus R",
+   "mean_control": 0.006189717035433146,
+   "mean_patient": 0.006261832406259416,
+   "percent_difference": 1.1650834830323313,
+   "effect_d": -0.01566972063138337,
+   "p": 0.9548271264791828,
+   "fdr_p": 0.9953355612487302
+  },
+  {
+   "region_id": 73,
+   "region_name": "Paracentral Lobule L",
+   "mean_control": 0.002295930377184974,
+   "mean_patient": 0.0019673554624283305,
+   "percent_difference": -14.311188092711559,
+   "effect_d": -0.7468753904653015,
+   "p": 0.009108158095469164,
+   "fdr_p": 0.10079694958985876
+  },
+  {
+   "region_id": 74,
+   "region_name": "Paracentral Lobule R",
+   "mean_control": 0.0014946371348811848,
+   "mean_patient": 0.0014326198206212647,
+   "percent_difference": -4.149322455102129,
+   "effect_d": -0.2882639696883656,
+   "p": 0.2999908307664503,
+   "fdr_p": 0.5241945042866395
+  },
+  {
+   "region_id": 75,
+   "region_name": "Caudate L",
+   "mean_control": 0.001116106162919559,
+   "mean_patient": 0.0011441056164461895,
+   "percent_difference": 2.5086729611265874,
+   "effect_d": -0.09471089930281011,
+   "p": 0.7322127398592448,
+   "fdr_p": 0.8955447102535293
+  },
+  {
+   "region_id": 76,
+   "region_name": "Caudate R",
+   "mean_control": 0.0012059627187931596,
+   "mean_patient": 0.001659059630207204,
+   "percent_difference": 37.571386275312975,
+   "effect_d": 0.6179332541336257,
+   "p": 0.029217632070311722,
+   "fdr_p": 0.18459363566693798
+  },
+  {
+   "region_id": 77,
+   "region_name": "Putamen L",
+   "mean_control": 0.0018983454643596515,
+   "mean_patient": 0.002271562661318795,
+   "percent_difference": 19.660130569808416,
+   "effect_d": 0.9658680868160474,
+   "p": 0.0009611844844056055,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 78,
+   "region_name": "Putamen R",
+   "mean_control": 0.0017547490992878313,
+   "mean_patient": 0.0021003125709344113,
+   "percent_difference": 19.693041688229254,
+   "effect_d": 0.5009200428460827,
+   "p": 0.07475807477398742,
+   "fdr_p": 0.26882417350343285
+  },
+  {
+   "region_id": 79,
+   "region_name": "Pallidum L",
+   "mean_control": 0.00052018303255546,
+   "mean_patient": 0.0006087259772150998,
+   "percent_difference": 17.021498034002047,
+   "effect_d": 0.4644401767197557,
+   "p": 0.09775714883506946,
+   "fdr_p": 0.3061827680494628
+  },
+  {
+   "region_id": 80,
+   "region_name": "Pallidum R",
+   "mean_control": 0.0004818463213059012,
+   "mean_patient": 0.0005979846405546664,
+   "percent_difference": 24.102771799524543,
+   "effect_d": 0.6577461297351922,
+   "p": 0.020672882940920352,
+   "fdr_p": 0.14920428557359908
+  },
+  {
+   "region_id": 81,
+   "region_name": "81",
+   "mean_control": 0.0,
+   "mean_patient": 0.0,
+   "percent_difference": 0.0,
+   "effect_d": 0.0,
+   "p": 1.0,
+   "fdr_p": 1.0
+  },
+  {
+   "region_id": 82,
+   "region_name": "82",
+   "mean_control": 0.0,
+   "mean_patient": 0.0,
+   "percent_difference": 0.0,
+   "effect_d": 0.0,
+   "p": 1.0,
+   "fdr_p": 1.0
+  },
+  {
+   "region_id": 83,
+   "region_name": "Heschl L",
+   "mean_control": 0.00036994774971491995,
+   "mean_patient": 0.0004419715407450951,
+   "percent_difference": 19.468638770117234,
+   "effect_d": 0.40699043752521497,
+   "p": 0.14550130327352565,
+   "fdr_p": 0.3715879437446963
+  },
+  {
+   "region_id": 84,
+   "region_name": "Heschl R",
+   "mean_control": 0.00044062545339618674,
+   "mean_patient": 0.00047206609056190324,
+   "percent_difference": 7.135456411649184,
+   "effect_d": 0.16768816152671243,
+   "p": 0.5451229910866603,
+   "fdr_p": 0.7629160030189795
+  },
+  {
+   "region_id": 85,
+   "region_name": "Temporal Sup L",
+   "mean_control": 0.003034493645047934,
+   "mean_patient": 0.0035993468184965464,
+   "percent_difference": 18.61441279899895,
+   "effect_d": 0.8587656660272824,
+   "p": 0.003000212558929105,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 86,
+   "region_name": "Temporal Sup R",
+   "mean_control": 0.005388208857455099,
+   "mean_patient": 0.005071579100280721,
+   "percent_difference": -5.876345285619191,
+   "effect_d": -0.2641944861644479,
+   "p": 0.3417414019925732,
+   "fdr_p": 0.5678026300521024
+  },
+  {
+   "region_id": 87,
+   "region_name": "Temporal Pole Sup L",
+   "mean_control": 0.0013592434059962648,
+   "mean_patient": 0.0015742290360837303,
+   "percent_difference": 15.816565976267556,
+   "effect_d": 0.16469243669831185,
+   "p": 0.5523025830719859,
+   "fdr_p": 0.7629160030189795
+  },
+  {
+   "region_id": 88,
+   "region_name": "Temporal Pole Sup R",
+   "mean_control": 0.0009949836567656753,
+   "mean_patient": 0.0012056711755911828,
+   "percent_difference": 21.174972814164093,
+   "effect_d": 0.21682512268253254,
+   "p": 0.4345530473326213,
+   "fdr_p": 0.6679241283075475
+  },
+  {
+   "region_id": 89,
+   "region_name": "Temporal Mid L",
+   "mean_control": 0.006353198526396853,
+   "mean_patient": 0.007484206802678443,
+   "percent_difference": 17.802186907624133,
+   "effect_d": 0.5994094710877309,
+   "p": 0.03416821624515699,
+   "fdr_p": 0.19558358264469175
+  },
+  {
+   "region_id": 90,
+   "region_name": "Temporal Mid R",
+   "mean_control": 0.006669618507103364,
+   "mean_patient": 0.006673792552057278,
+   "percent_difference": 0.06258296407010952,
+   "effect_d": 0.07020602035615753,
+   "p": 0.7997144427398885,
+   "fdr_p": 0.9283398426211292
+  },
+  {
+   "region_id": 91,
+   "region_name": "Temporal Pole Mid L",
+   "mean_control": 0.0009259101907926457,
+   "mean_patient": 0.0010361603445922215,
+   "percent_difference": 11.907218960965713,
+   "effect_d": 0.12515657171406322,
+   "p": 0.6512814295958109,
+   "fdr_p": 0.8316362870223432
+  },
+  {
+   "region_id": 92,
+   "region_name": "Temporal Pole Mid R",
+   "mean_control": 0.0010127572036212733,
+   "mean_patient": 0.0012740193887345542,
+   "percent_difference": 25.79711940622064,
+   "effect_d": 0.6146678212970285,
+   "p": 0.030041262207578637,
+   "fdr_p": 0.18459363566693798
+  },
+  {
+   "region_id": 93,
+   "region_name": "Temporal Inf L",
+   "mean_control": 0.003576421670628508,
+   "mean_patient": 0.00428028081621279,
+   "percent_difference": 19.68054134569061,
+   "effect_d": 0.5445523422670115,
+   "p": 0.05339957345830981,
+   "fdr_p": 0.22160822985198575
+  },
+  {
+   "region_id": 94,
+   "region_name": "Temporal Inf R",
+   "mean_control": 0.004760306492012655,
+   "mean_patient": 0.0049901901376369516,
+   "percent_difference": 4.829177407169463,
+   "effect_d": 0.18512084993415964,
+   "p": 0.5043127048301791,
+   "fdr_p": 0.7299426737219488
+  },
+  {
+   "region_id": 95,
+   "region_name": "Cerebellum Crus1 L",
+   "mean_control": 0.003293265235748966,
+   "mean_patient": 0.0034316869933946033,
+   "percent_difference": 4.203176717837516,
+   "effect_d": -0.0795829027334399,
+   "p": 0.773670472568616,
+   "fdr_p": 0.9138534695200385
+  },
+  {
+   "region_id": 96,
+   "region_name": "Cerebellum Crus1 R",
+   "mean_control": 0.0030183666599847255,
+   "mean_patient": 0.0028359506449102782,
+   "percent_difference": -6.0435339911742325,
+   "effect_d": -0.4234983790494001,
+   "p": 0.13019583727643502,
+   "fdr_p": 0.35976559853248974
+  },
+  {
+   "region_id": 97,
+   "region_name": "Cerebellum Crus2 L",
+   "mean_control": 0.0023368656785535003,
+   "mean_patient": 0.002405946884383328,
+   "percent_difference": 2.9561479063096243,
+   "effect_d": -0.047928042508363466,
+   "p": 0.8624654675514969,
+   "fdr_p": 0.9806114220106059
+  },
+  {
+   "region_id": 98,
+   "region_name": "Cerebellum Crus2 R",
+   "mean_control": 0.001934360638298025,
+   "mean_patient": 0.0018455108032637217,
+   "percent_difference": -4.593240436926964,
+   "effect_d": -0.2835523882245219,
+   "p": 0.3078753325698842,
+   "fdr_p": 0.5323677625687581
+  },
+  {
+   "region_id": 99,
+   "region_name": "Cerebellum 3 L",
+   "mean_control": 0.00013368720284571086,
+   "mean_patient": 0.00011648172285439754,
+   "percent_difference": -12.869952863902956,
+   "effect_d": -0.006453125716081218,
+   "p": 0.9813883342834524,
+   "fdr_p": 1.0
+  },
+  {
+   "region_id": 100,
+   "region_name": "Cerebellum 3 R",
+   "mean_control": 0.00016582554440864824,
+   "mean_patient": 0.00014947641227788057,
+   "percent_difference": -9.859236216633837,
+   "effect_d": -0.25132427506527105,
+   "p": 0.3655686279071173,
+   "fdr_p": 0.6008355666592226
+  },
+  {
+   "region_id": 101,
+   "region_name": "Cerebellum 4 5 L",
+   "mean_control": 0.0013294879370564956,
+   "mean_patient": 0.0011162420520336026,
+   "percent_difference": -16.03970063053165,
+   "effect_d": -0.2301464502420766,
+   "p": 0.40704124971801026,
+   "fdr_p": 0.6476286304590476
+  },
+  {
+   "region_id": 102,
+   "region_name": "Cerebellum 4 5 R",
+   "mean_control": 0.0007044695653176268,
+   "mean_patient": 0.0007053322641117136,
+   "percent_difference": 0.1224607614805734,
+   "effect_d": 0.22097703588061646,
+   "p": 0.4258617267222468,
+   "fdr_p": 0.6626554126894934
+  },
+  {
+   "region_id": 103,
+   "region_name": "Cerebellum 6 L",
+   "mean_control": 0.0024893014305969086,
+   "mean_patient": 0.002454288295554515,
+   "percent_difference": -1.4065446077375083,
+   "effect_d": 0.09169352486568952,
+   "p": 0.7404222100299153,
+   "fdr_p": 0.8955447102535293
+  },
+  {
+   "region_id": 104,
+   "region_name": "Cerebellum 6 R",
+   "mean_control": 0.0017397295065393786,
+   "mean_patient": 0.0021765771691362543,
+   "percent_difference": 25.110091020174796,
+   "effect_d": 0.5702087981952728,
+   "p": 0.043474744768522686,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 105,
+   "region_name": "Cerebellum 7b L",
+   "mean_control": 0.0006251498055141633,
+   "mean_patient": 0.0006344271457261204,
+   "percent_difference": 1.484018731210654,
+   "effect_d": 0.3524230213258196,
+   "p": 0.20630694097820348,
+   "fdr_p": 0.433505724080782
+  },
+  {
+   "region_id": 106,
+   "region_name": "Cerebellum 7b R",
+   "mean_control": 0.0004119957998652162,
+   "mean_patient": 0.00047137230981434075,
+   "percent_difference": 14.411921181854161,
+   "effect_d": 0.41884914818199204,
+   "p": 0.13437028378924315,
+   "fdr_p": 0.35976559853248974
+  },
+  {
+   "region_id": 107,
+   "region_name": "Cerebellum 8 L",
+   "mean_control": 0.0023549323438328603,
+   "mean_patient": 0.002455211055682737,
+   "percent_difference": 4.258241733036985,
+   "effect_d": 0.3238312925329838,
+   "p": 0.24495120132851142,
+   "fdr_p": 0.4673781542589988
+  },
+  {
+   "region_id": 108,
+   "region_name": "Cerebellum 8 R",
+   "mean_control": 0.002139172757746451,
+   "mean_patient": 0.0025270996555443836,
+   "percent_difference": 18.134435210674663,
+   "effect_d": 0.43683734409175634,
+   "p": 0.11879257489870007,
+   "fdr_p": 0.3342299564946477
+  },
+  {
+   "region_id": 109,
+   "region_name": "Cerebellum 9 L",
+   "mean_control": 0.0009382194120142582,
+   "mean_patient": 0.001104914911537188,
+   "percent_difference": 17.76721920142881,
+   "effect_d": 0.3674174966211142,
+   "p": 0.18795764892518463,
+   "fdr_p": 0.427021471641687
+  },
+  {
+   "region_id": 110,
+   "region_name": "Cerebellum 9 R",
+   "mean_control": 0.0006931160223654499,
+   "mean_patient": 0.0009728103650935634,
+   "percent_difference": 40.353178068742274,
+   "effect_d": 0.751635580944666,
+   "p": 0.00870338701059538,
+   "fdr_p": 0.10079694958985876
+  },
+  {
+   "region_id": 111,
+   "region_name": "Cerebellum 10 L",
+   "mean_control": 0.00015735903532420933,
+   "mean_patient": 0.0001942815205318029,
+   "percent_difference": 23.46384821915155,
+   "effect_d": 0.43712666021362756,
+   "p": 0.11855447445028362,
+   "fdr_p": 0.3342299564946477
+  },
+  {
+   "region_id": 112,
+   "region_name": "Cerebellum 10 R",
+   "mean_control": 0.00014121049603688077,
+   "mean_patient": 0.0001505995300081898,
+   "percent_difference": 6.648963239146784,
+   "effect_d": 0.20283104018051945,
+   "p": 0.4646138924400084,
+   "fdr_p": 0.6993160293867491
+  },
+  {
+   "region_id": 113,
+   "region_name": "Vermis 1 2",
+   "mean_control": 3.6621434062625795e-05,
+   "mean_patient": 2.817405587237034e-05,
+   "percent_difference": -23.066759689993876,
+   "effect_d": -0.16311532862206576,
+   "p": 0.5561014238873284,
+   "fdr_p": 0.7629160030189795
+  },
+  {
+   "region_id": 114,
+   "region_name": "Vermis 3",
+   "mean_control": 0.00015379795133979365,
+   "mean_patient": 9.380124154032404e-05,
+   "percent_difference": -39.01008386445657,
+   "effect_d": -0.23550742791448534,
+   "p": 0.3962782368256821,
+   "fdr_p": 0.6449234050300316
+  },
+  {
+   "region_id": 115,
+   "region_name": "Vermis 4 5",
+   "mean_control": 0.0005432366351046516,
+   "mean_patient": 0.0004741092572177762,
+   "percent_difference": -12.72509499908053,
+   "effect_d": -0.07975766899330636,
+   "p": 0.773187445751274,
+   "fdr_p": 0.9138534695200385
+  },
+  {
+   "region_id": 116,
+   "region_name": "Vermis 6",
+   "mean_control": 0.00034504023213290477,
+   "mean_patient": 0.00035549297263718044,
+   "percent_difference": 3.029426580100786,
+   "effect_d": 0.11706171481167961,
+   "p": 0.6724383435097016,
+   "fdr_p": 0.8520974429206906
+  },
+  {
+   "region_id": 117,
+   "region_name": "Vermis 7",
+   "mean_control": 0.00014794644376018177,
+   "mean_patient": 0.00017404495061505837,
+   "percent_difference": 17.640509762560942,
+   "effect_d": 0.14409186920005637,
+   "p": 0.6029308673956465,
+   "fdr_p": 0.8006921919014186
+  },
+  {
+   "region_id": 118,
+   "region_name": "Vermis 8",
+   "mean_control": 0.0002544692743308674,
+   "mean_patient": 0.00017726359596602267,
+   "percent_difference": -30.339882316974716,
+   "effect_d": -0.7011421976304376,
+   "p": 0.013975999160788965,
+   "fdr_p": 0.12210609793110358
+  },
+  {
+   "region_id": 119,
+   "region_name": "Vermis 9",
+   "mean_control": 0.00020847029060291395,
+   "mean_patient": 0.0001957470610805144,
+   "percent_difference": -6.103137998993952,
+   "effect_d": -0.025895881367169516,
+   "p": 0.9254181263447715,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 120,
+   "region_name": "Vermis 10",
+   "mean_control": 8.828037843382172e-05,
+   "mean_patient": 0.00010489066763451953,
+   "percent_difference": 18.81538060368592,
+   "effect_d": 0.4791850227597597,
+   "p": 0.08784039471534186,
+   "fdr_p": 0.28041356774512977
+  },
+  {
+   "region_id": 121,
+   "region_name": "Thal AV L",
+   "mean_control": 2.452999062901997e-05,
+   "mean_patient": 2.9880222701989027e-05,
+   "percent_difference": 21.81098294688918,
+   "effect_d": 0.09089639046384702,
+   "p": 0.7425961410860098,
+   "fdr_p": 0.8955447102535293
+  },
+  {
+   "region_id": 122,
+   "region_name": "Thal AV R",
+   "mean_control": 2.773096872275263e-05,
+   "mean_patient": 3.4115618028154574e-05,
+   "percent_difference": 23.023535056543064,
+   "effect_d": 0.36991689477495004,
+   "p": 0.18502349189380984,
+   "fdr_p": 0.427021471641687
+  },
+  {
+   "region_id": 123,
+   "region_name": "Thal LP L",
+   "mean_control": 4.348601494019023e-05,
+   "mean_patient": 3.327305141850779e-05,
+   "percent_difference": -23.485627587924853,
+   "effect_d": -0.4812147069695928,
+   "p": 0.08654310964975384,
+   "fdr_p": 0.28041356774512977
+  },
+  {
+   "region_id": 124,
+   "region_name": "Thal LP R",
+   "mean_control": 4.908563972196754e-05,
+   "mean_patient": 3.568915920421512e-05,
+   "percent_difference": -27.292056482574523,
+   "effect_d": -0.49759045596455,
+   "p": 0.07664904352032002,
+   "fdr_p": 0.26882417350343285
+  },
+  {
+   "region_id": 125,
+   "region_name": "Thal VA L",
+   "mean_control": 0.0001434546086691164,
+   "mean_patient": 0.00016058063130412983,
+   "percent_difference": 11.938286816922876,
+   "effect_d": 0.4101214295225828,
+   "p": 0.14249402176342876,
+   "fdr_p": 0.3715879437446963
+  },
+  {
+   "region_id": 126,
+   "region_name": "Thal VA R",
+   "mean_control": 0.00010999110587949722,
+   "mean_patient": 0.00015705023063155264,
+   "percent_difference": 42.784481868572094,
+   "effect_d": 0.8824984245207385,
+   "p": 0.0023453596272556857,
+   "fdr_p": 0.07114789782603306
+  },
+  {
+   "region_id": 127,
+   "region_name": "Thal VL L",
+   "mean_control": 0.0005376387367398028,
+   "mean_patient": 0.0006037668751978993,
+   "percent_difference": 12.2997347362082,
+   "effect_d": 0.2802380255657236,
+   "p": 0.31350561509569996,
+   "fdr_p": 0.5365147639782082
+  },
+  {
+   "region_id": 128,
+   "region_name": "Thal VL R",
+   "mean_control": 0.000535082499575346,
+   "mean_patient": 0.0005865889364938553,
+   "percent_difference": 9.625887028521023,
+   "effect_d": 0.4459891124986056,
+   "p": 0.11144583053077553,
+   "fdr_p": 0.3255281672705574
+  },
+  {
+   "region_id": 129,
+   "region_name": "Thal VPL L",
+   "mean_control": 0.00035881178917868714,
+   "mean_patient": 0.0003689510471674007,
+   "percent_difference": 2.8257873053508384,
+   "effect_d": 0.13619211072071732,
+   "p": 0.6229012613434292,
+   "fdr_p": 0.8141859006536161
+  },
+  {
+   "region_id": 130,
+   "region_name": "Thal VPL R",
+   "mean_control": 0.00032881232141544693,
+   "mean_patient": 0.0003340038740589538,
+   "percent_difference": 1.5788802016781582,
+   "effect_d": 0.33134085075266767,
+   "p": 0.23432711554069427,
+   "fdr_p": 0.46041117495573475
+  },
+  {
+   "region_id": 131,
+   "region_name": "Thal IL L",
+   "mean_control": 7.837765020340368e-05,
+   "mean_patient": 9.199094436906884e-05,
+   "percent_difference": 17.36884702505918,
+   "effect_d": 0.13793169312270423,
+   "p": 0.6184783122434133,
+   "fdr_p": 0.8141859006536161
+  },
+  {
+   "region_id": 132,
+   "region_name": "Thal IL R",
+   "mean_control": 0.00010370984131247199,
+   "mean_patient": 9.265756949577559e-05,
+   "percent_difference": -10.65691710336006,
+   "effect_d": 0.014096007541713381,
+   "p": 0.9593595771072098,
+   "fdr_p": 0.9953355612487302
+  },
+  {
+   "region_id": 133,
+   "region_name": "Thal Re L",
+   "mean_control": 2.8274694221490857e-06,
+   "mean_patient": 3.443159118574186e-06,
+   "percent_difference": 21.77529106423123,
+   "effect_d": 0.13275589016036854,
+   "p": 0.6316791669118162,
+   "fdr_p": 0.8192089195887617
+  },
+  {
+   "region_id": 134,
+   "region_name": "Thal Re R",
+   "mean_control": 1.0986031489054299e-06,
+   "mean_patient": 2.700052188131834e-06,
+   "percent_difference": 145.77138622094557,
+   "effect_d": 0.7537732027472337,
+   "p": 0.008527063030687572,
+   "fdr_p": 0.10079694958985876
+  },
+  {
+   "region_id": 135,
+   "region_name": "Thal MDm L",
+   "mean_control": 0.0001911282084146715,
+   "mean_patient": 0.00013820622910217992,
+   "percent_difference": -27.689256207368473,
+   "effect_d": -0.5717591562435406,
+   "p": 0.04293009772197405,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 136,
+   "region_name": "Thal MDm R",
+   "mean_control": 0.00019204350263884868,
+   "mean_patient": 0.00016312098963573238,
+   "percent_difference": -15.060396527711287,
+   "effect_d": -0.09020295967648269,
+   "p": 0.7444889759938979,
+   "fdr_p": 0.8955447102535293
+  },
+  {
+   "region_id": 137,
+   "region_name": "Thal MDl L",
+   "mean_control": 8.547501771398383e-05,
+   "mean_patient": 7.815968274688093e-05,
+   "percent_difference": -8.55844802697959,
+   "effect_d": -0.38670940609504784,
+   "p": 0.166208407540096,
+   "fdr_p": 0.3980479666032091
+  },
+  {
+   "region_id": 138,
+   "region_name": "Thal MDl R",
+   "mean_control": 7.034368906667221e-05,
+   "mean_patient": 6.544845775684262e-05,
+   "percent_difference": -6.959019884768712,
+   "effect_d": -0.09247578387685515,
+   "p": 0.7382909210328368,
+   "fdr_p": 0.8955447102535293
+  },
+  {
+   "region_id": 139,
+   "region_name": "Thal LGN L",
+   "mean_control": 7.998869636397565e-05,
+   "mean_patient": 9.21372790593847e-05,
+   "percent_difference": 15.187874346806327,
+   "effect_d": 0.5037977941881283,
+   "p": 0.07315548800860538,
+   "fdr_p": 0.26882417350343285
+  },
+  {
+   "region_id": 140,
+   "region_name": "Thal LGN R",
+   "mean_control": 8.883018437508767e-05,
+   "mean_patient": 9.909703245488203e-05,
+   "percent_difference": 11.557837183408674,
+   "effect_d": 0.36539396565114163,
+   "p": 0.19035896928605325,
+   "fdr_p": 0.427021471641687
+  },
+  {
+   "region_id": 141,
+   "region_name": "Thal MGN L",
+   "mean_control": 3.547903056149627e-05,
+   "mean_patient": 2.954439534396924e-05,
+   "percent_difference": -16.727162844093076,
+   "effect_d": -0.20146315976954782,
+   "p": 0.4676149353128262,
+   "fdr_p": 0.6993160293867491
+  },
+  {
+   "region_id": 142,
+   "region_name": "Thal MGN R",
+   "mean_control": 2.2434317731604823e-05,
+   "mean_patient": 2.5430174975518902e-05,
+   "percent_difference": 13.353903959796389,
+   "effect_d": 0.5752208564978304,
+   "p": 0.04173539060358375,
+   "fdr_p": 0.21039354379816858
+  },
+  {
+   "region_id": 143,
+   "region_name": "Thal PuI L",
+   "mean_control": 5.3704869704068155e-05,
+   "mean_patient": 4.5095363540847234e-05,
+   "percent_difference": -16.031146171031022,
+   "effect_d": -0.3550160242217449,
+   "p": 0.2030412953921704,
+   "fdr_p": 0.4321135260910293
+  },
+  {
+   "region_id": 144,
+   "region_name": "Thal PuI R",
+   "mean_control": 5.182544086794314e-05,
+   "mean_patient": 4.498691664036333e-05,
+   "percent_difference": -13.195303528637819,
+   "effect_d": -0.07865920158518808,
+   "p": 0.7762249349537677,
+   "fdr_p": 0.9138534695200385
+  },
+  {
+   "region_id": 145,
+   "region_name": "Thal PuM L",
+   "mean_control": 0.00025563826270702533,
+   "mean_patient": 0.00020403648647571344,
+   "percent_difference": -20.18546663746115,
+   "effect_d": -0.46074020122880466,
+   "p": 0.10038534956225043,
+   "fdr_p": 0.30859200050617724
+  },
+  {
+   "region_id": 146,
+   "region_name": "Thal PuM R",
+   "mean_control": 0.00022925843714692907,
+   "mean_patient": 0.0001613318813554065,
+   "percent_difference": -29.628813943274512,
+   "effect_d": -0.4455652485365843,
+   "p": 0.11177774418326368,
+   "fdr_p": 0.3255281672705574
+  },
+  {
+   "region_id": 147,
+   "region_name": "Thal PuA L",
+   "mean_control": 5.825367615363145e-05,
+   "mean_patient": 5.127360160394664e-05,
+   "percent_difference": -11.982204404193093,
+   "effect_d": -0.3551441384952033,
+   "p": 0.20288095849486543,
+   "fdr_p": 0.4321135260910293
+  },
+  {
+   "region_id": 148,
+   "region_name": "Thal PuA R",
+   "mean_control": 6.094999306304907e-05,
+   "mean_patient": 4.647771225136872e-05,
+   "percent_difference": -23.744515929164514,
+   "effect_d": -0.31841133873201355,
+   "p": 0.25283252502367076,
+   "fdr_p": 0.4715752713924645
+  },
+  {
+   "region_id": 149,
+   "region_name": "Thal PuL L",
+   "mean_control": 6.329189883073503e-05,
+   "mean_patient": 4.7732169314439865e-05,
+   "percent_difference": -24.584077589309494,
+   "effect_d": -0.6426283553649472,
+   "p": 0.023610733455557528,
+   "fdr_p": 0.16330757306760624
+  },
+  {
+   "region_id": 150,
+   "region_name": "Thal PuL R",
+   "mean_control": 5.072328553156946e-05,
+   "mean_patient": 3.989355613302785e-05,
+   "percent_difference": -21.350607093070376,
+   "effect_d": -0.3851861527355131,
+   "p": 0.16785155218207615,
+   "fdr_p": 0.3980479666032091
+  },
+  {
+   "region_id": 151,
+   "region_name": "ACC sub L",
+   "mean_control": 0.00016869551628546104,
+   "mean_patient": 0.00018601318740529447,
+   "percent_difference": 10.265638056751335,
+   "effect_d": 0.2728006032013164,
+   "p": 0.32639264396086654,
+   "fdr_p": 0.5528691724235086
+  },
+  {
+   "region_id": 152,
+   "region_name": "ACC sub R",
+   "mean_control": 0.00014873384220240765,
+   "mean_patient": 0.0001960416103925277,
+   "percent_difference": 31.806996638828327,
+   "effect_d": 0.5536661835949579,
+   "p": 0.049670572122874526,
+   "fdr_p": 0.2163362454046046
+  },
+  {
+   "region_id": 153,
+   "region_name": "ACC pre L",
+   "mean_control": 0.0007368830156906504,
+   "mean_patient": 0.0008392394295010839,
+   "percent_difference": 13.89045637244047,
+   "effect_d": 0.32834371556851294,
+   "p": 0.2385262713626096,
+   "fdr_p": 0.46041117495573475
+  },
+  {
+   "region_id": 154,
+   "region_name": "ACC pre R",
+   "mean_control": 0.0008778870846781417,
+   "mean_patient": 0.001276882541910262,
+   "percent_difference": 45.449518986647725,
+   "effect_d": 0.835067078189278,
+   "p": 0.003822751978697238,
+   "fdr_p": 0.0779854683387574
+  },
+  {
+   "region_id": 155,
+   "region_name": "ACC sup L",
+   "mean_control": 0.0009673953520543548,
+   "mean_patient": 0.0010949959270461175,
+   "percent_difference": 13.190116607526688,
+   "effect_d": 0.3298996419197175,
+   "p": 0.236339549345585,
+   "fdr_p": 0.46041117495573475
+  },
+  {
+   "region_id": 156,
+   "region_name": "ACC sup R",
+   "mean_control": 0.0009001680369579728,
+   "mean_patient": 0.0011417499544455953,
+   "percent_difference": 26.837424521761985,
+   "effect_d": 0.6805111747592023,
+   "p": 0.016865896626506654,
+   "fdr_p": 0.13998694200000522
+  },
+  {
+   "region_id": 157,
+   "region_name": "N Acc L",
+   "mean_control": 0.00015872554534926398,
+   "mean_patient": 0.00015631016939829205,
+   "percent_difference": -1.5217310771603085,
+   "effect_d": -0.022813993805612772,
+   "p": 0.9342720570272413,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 158,
+   "region_name": "N Acc R",
+   "mean_control": 0.00012894110654808165,
+   "mean_patient": 0.00018071671137088097,
+   "percent_difference": 40.154459821928384,
+   "effect_d": 0.5062012464524173,
+   "p": 0.07183931305049432,
+   "fdr_p": 0.26882417350343285
+  },
+  {
+   "region_id": 159,
+   "region_name": "VTA L",
+   "mean_control": 2.0152780088896348e-05,
+   "mean_patient": 2.057126183540189e-05,
+   "percent_difference": 2.076545988491759,
+   "effect_d": 0.18452348810867022,
+   "p": 0.5056831775784585,
+   "fdr_p": 0.7299426737219488
+  },
+  {
+   "region_id": 160,
+   "region_name": "VTA R",
+   "mean_control": 1.7287178535120047e-05,
+   "mean_patient": 1.9274759090846386e-05,
+   "percent_difference": 11.497425977804522,
+   "effect_d": 0.30773093193719603,
+   "p": 0.2688922477252911,
+   "fdr_p": 0.48517514263476436
+  },
+  {
+   "region_id": 161,
+   "region_name": "SN pc L",
+   "mean_control": 6.422169801507122e-05,
+   "mean_patient": 7.294451304624294e-05,
+   "percent_difference": 13.582348802307738,
+   "effect_d": 0.4199520129425185,
+   "p": 0.13337052073972258,
+   "fdr_p": 0.35976559853248974
+  },
+  {
+   "region_id": 162,
+   "region_name": "SN pc R",
+   "mean_control": 6.295245509370537e-05,
+   "mean_patient": 7.418437771353874e-05,
+   "percent_difference": 17.841913557008287,
+   "effect_d": 0.4848025008239005,
+   "p": 0.08428894666045014,
+   "fdr_p": 0.28041356774512977
+  },
+  {
+   "region_id": 163,
+   "region_name": "SN pr L",
+   "mean_control": 9.250398154525829e-05,
+   "mean_patient": 0.00011549965092653162,
+   "percent_difference": 24.859113085875684,
+   "effect_d": 0.6605941389467881,
+   "p": 0.020157674861271898,
+   "fdr_p": 0.14920428557359908
+  },
+  {
+   "region_id": 164,
+   "region_name": "SN pr R",
+   "mean_control": 0.00011563891512637155,
+   "mean_patient": 0.0001318240779160753,
+   "percent_difference": 13.9962942163686,
+   "effect_d": 0.48379240637839854,
+   "p": 0.08491857055854896,
+   "fdr_p": 0.28041356774512977
+  },
+  {
+   "region_id": 165,
+   "region_name": "Red N L",
+   "mean_control": 0.00010786572694277182,
+   "mean_patient": 0.00010943851765252987,
+   "percent_difference": 1.4581005054483103,
+   "effect_d": -0.03687125703432124,
+   "p": 0.8939720165767436,
+   "fdr_p": 0.9942722961414575
+  },
+  {
+   "region_id": 166,
+   "region_name": "Red N R",
+   "mean_control": 0.00010055455935567528,
+   "mean_patient": 0.00011554715917386305,
+   "percent_difference": 14.909915486931718,
+   "effect_d": 0.33642488643961527,
+   "p": 0.22732793642629143,
+   "fdr_p": 0.46041117495573475
+  }
+ ]
+}
